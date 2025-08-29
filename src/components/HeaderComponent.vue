@@ -12,7 +12,7 @@
                     </div>
                 </v-col>
                 <v-col class="text-center">
-                    <v-btn :to="'/'">Crong Practice</v-btn>
+                    <v-btn :to="'/'">Crong Shop</v-btn>
                 </v-col>
                 <v-col class="d-flex justify-end">
                     <v-btn v-if="isLogined" :to="'/member/login'">장바구니 {{ totalQuantity }} </v-btn>
